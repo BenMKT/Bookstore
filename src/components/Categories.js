@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import BookList from './BookList';
 import BookForm from './BookForm';
-import Navbar from './Navbar';
 
 function Categories() {
   const [books, setBooks] = useState([]);
@@ -16,7 +15,6 @@ function Categories() {
 
   return (
     <div>
-      <Navbar />
       <BookForm onAdd={handleAddBook} />
       <BookList books={books} onDelete={handleDeleteBook} />
     </div>
