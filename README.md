@@ -169,6 +169,6 @@ I would like to thank to the Microverse team for teching me this tool.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
