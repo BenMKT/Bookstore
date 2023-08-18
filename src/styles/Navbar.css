@@ -1,10 +1,10 @@
 .NavBarContainer {
-    width: 100%;
-    margin: 5px auto;
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.979);
-    border-radius: 10px;
-  }
+  width: 100%;
+  margin: 5px auto;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.979);
+  border-radius: 10px;
+}
 
 .Navbar {
   display: flex;
@@ -15,6 +15,6 @@
 }
 
 li a {
-    text-decoration: none;
-    list-style: none; 
+  text-decoration: none;
+  list-style: none;
 }
