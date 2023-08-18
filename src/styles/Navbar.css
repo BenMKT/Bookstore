@@ -1,0 +1,20 @@
+.NavBarContainer {
+  width: 100%;
+  margin: 5px auto;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.979);
+  border-radius: 10px;
+}
+
+.Navbar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  list-style: none;
+}
