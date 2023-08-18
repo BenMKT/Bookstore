@@ -26,11 +26,15 @@ function BookForm({ onAdd }) {
           placeholder="Title"
           required
         />
-        <select name="mySelect" id="mySelect">
+        <input
+          type="text"
+          placeholder="Author"
+        />
+        {/* <select name="mySelect" id="mySelect">
           <option value="option1">Categories</option>
           <option value="option2">Categories1</option>
           <option value="option3">Categories1</option>
-        </select>
+        </select> */}
         <button type="submit">Add Book</button>
       </form>
     </div>
