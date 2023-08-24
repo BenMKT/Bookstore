@@ -1,18 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Book from './Book';
+import { useSelector } from 'react-redux';
+import BookCard from './BookCard';
 
-const BookList = ({ books, onDelete }) => (
-  <div>
-    {books.map((book) => (
-      <Book key={book.id} id={book.id} title={book.title} onDelete={onDelete} />
-    ))}
-  </div>
-);
-
-BookList.propTypes = {
-  books: PropTypes.string.isRequired,
-  onDelete: PropTypes.string.isRequired,
+const BookList = () => {
+  const books = useSelector((store) => store.Book.books);
+  return (
+    <div>
+      <BookCard key={books.item_id} books={books} />
+    </div>
+  );
 };
 
 export default BookList;
