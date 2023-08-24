@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
+import PropTypes from 'prop-types';
 import { removeBook } from '../redux/books/booksSlice';
 
-/* eslint-disable react/prop-types */
 const BookCard = ({ books }) => {
   const dispatch = useDispatch();
   const deleteBook = (itemId) => {
@@ -48,5 +48,17 @@ const BookCard = ({ books }) => {
       ))}
     </>
   );
+};
+
+BookCard.propTypes = {
+  books: PropTypes.arrayOf(
+    PropTypes.shape({
+      item_id: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+        .isRequired,
+      category: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      author: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
 };
 export default BookCard;
