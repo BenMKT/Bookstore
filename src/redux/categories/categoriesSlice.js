@@ -4,9 +4,10 @@ const categoriesSlice = createSlice({
   name: 'categories',
   initialState: [],
   reducers: {
-    checkStatus: () => {
-      const initialState = 'Under construction';
-      return initialState;
+    reducers: {
+      checkStatus: (state, action) => {
+        state.categories = action.payload === 'Under construction' ? 'Under construction' : state.categories;
+      },
     },
   },
 });
