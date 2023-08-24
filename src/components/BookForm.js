@@ -1,48 +1,41 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import '../styles/BookForm.css';
+// import '../styles/BookForm.css';
 
-function BookForm({ onAdd }) {
+const BookForm = ({ onCreate }) => {
   const [title, setTitle] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newBook = {
-      id: new Date().getTime().toString(),
-      title,
-    };
-    onAdd(newBook);
-    setTitle('');
+    if (title.trim()) {
+      onCreate(title);
+      setTitle('');
+    }
   };
 
   return (
-    <div onClickCapture="Formcontainer">
-      <h6>Add New Book</h6>
+    <div>
+      <h2>Add New Book</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="Title"
-          required
+          placeholder="Enter book title"
         />
-        <input
-          type="text"
-          placeholder="Author"
-        />
-        {/* <select name="mySelect" id="mySelect">
-          <option value="option1">Categories</option>
-          <option value="option2">Categories1</option>
-          <option value="option3">Categories1</option>
-        </select> */}
+        <select name="mySelect" id="mySelect">
+          <option value="Categories1">Categories1</option>
+          <option value="Categories2">Categories2</option>
+          <option value="Categories3">Categories3</option>
+        </select>
         <button type="submit">Add Book</button>
       </form>
     </div>
   );
-}
+};
 
 BookForm.propTypes = {
-  onAdd: PropTypes.func.isRequired,
+  onCreate: PropTypes.string.isRequired,
 };
 
 export default BookForm;
