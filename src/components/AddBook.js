@@ -26,6 +26,7 @@ const AddBook = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
+          value={title}
           onChange={(e) => {
             setTitle(e.target.value);
           }}
@@ -33,6 +34,7 @@ const AddBook = () => {
         />
         <input
           type="text"
+          value={author}
           onChange={(e) => {
             setAuthor(e.target.value);
           }}
