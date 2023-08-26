@@ -1,5 +1,5 @@
 const Categories = () => (
-  <div>
+  <div className="loading">
     <h1>Under Construction !!</h1>
   </div>
 );
