@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
+import './styles/App.css';
 import { Routes, Route } from 'react-router-dom';
 import Book from './components/Book';
 import Categories from './components/Categories';
@@ -21,13 +22,13 @@ function App() {
     return <h2 className="error">Could not Load Books!!</h2>;
   }
   return (
-    <>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Book />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

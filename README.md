@@ -29,8 +29,7 @@
 
 # 📖 Bookstore! <a name="about-project"></a>
 
-**Bookstore!** Created the user interface using React.
-And also set up client-side routing using React Router V6.
+**Bookstore!** is a single page Application that allows users to input and store their favorite books and keeps track of their progress while reading them.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -55,7 +54,7 @@ And also set up client-side routing using React Router V6.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-**The live demo will be updated as soon as the page is displayed**
+**Checkout the live [Bookstore App](https://benmkt-bookstore.onrender.com)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
