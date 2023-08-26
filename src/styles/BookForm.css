@@ -1,9 +1,0 @@
-.Formcontainer {
-  display: flex;
-  flex-direction: row;
-  top: 114px;
-}
-
-.Formcontainer input {
-  top: 714px;
-}
