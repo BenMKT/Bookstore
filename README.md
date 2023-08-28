@@ -1,13 +1,9 @@
-# Bookstore: initialize project with components
-<br>
 <div align='center'>
 	<h1>Bookstore</h1>
   </div>
 <a name="readme-top"></a>
 
-# 📗 Table of Contents
-- [Bookstore: initialize project with components](#bookstore-initialize-project-with-components)
-- [📗 Table of Contents](#-table-of-contents)
+# 📗 [Table of Contents](#-table-of-contents)
 - [📖 Bookstore! ](#-bookstore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -29,7 +25,7 @@
 
 # 📖 Bookstore! <a name="about-project"></a>
 
-**Bookstore!** is a single page Application that allows users to input and store their favorite books and keeps track of their progress while reading them.
+**Bookstore!** is a Single-Page Application that allows users to input and store their favorite books and keep track of their progress while reading them.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -40,13 +36,14 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">HTML</></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">React</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">React</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Redux</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **A project to learn how to use react**
+- **A project to learn how to use React, Redux and Render**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,12 +107,12 @@ To run the project:
 ```
 
 Method 2:
-Open './dist/index.html' in your browser of choice
+Open './build/index.html' in your browser of choice
 
 ### Deployment
 
 You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart)
-or a web-hosting platform of your choice.
+or a web-hosting platform of your choice preferably [Render](https://render.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +129,7 @@ or a web-hosting platform of your choice.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Updates will be made shortly to make the page interactive**
+- [ ] **Updates will constantly be made to improve both the UI and UX**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
