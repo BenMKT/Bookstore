@@ -4,6 +4,7 @@
 <a name="readme-top"></a>
 
 # 📗 [Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 Bookstore! ](#-bookstore-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -165,6 +166,7 @@ I would like to thank to the Microverse team for teching me this tool.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](./LICENSE) licensed.
+<!-- This project is [MIT](https://opensource.org/licenses/MIT) licensed. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
